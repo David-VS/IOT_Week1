@@ -1,4 +1,3 @@
-import random
 
 str1 = "The quick brown fox "
 str2 = "jumps over the lazy dog"
