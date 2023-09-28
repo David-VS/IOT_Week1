@@ -1,4 +1,4 @@
-import device
+from classes import device
 
 class DeviceManager:
     #composition, gebruik klassen binnen andere klasse
