@@ -13,12 +13,12 @@ else:
 
 #opdracht 2
 getal = int(input("geef een getal"))
-counter = getal
+deeltal = getal
 
-while counter >= 1:
-    if getal % counter == 0:
-        print(counter)
-    counter -= 1
+while deeltal >= 1:
+    if getal % deeltal == 0:
+        print(deeltal)
+    deeltal -= 1
 
 #opdracht 3
 doing_input = True

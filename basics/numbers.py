@@ -1,6 +1,6 @@
-import math as M
+import math as m
 
-pi = M.pi
+pi = m.pi
 r = int(input("geef de straal:"))
 
 omtrek = 2 * pi * r

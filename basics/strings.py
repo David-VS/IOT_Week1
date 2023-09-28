@@ -1,10 +1,10 @@
 
 str1 = "The quick brown fox "
 str2 = "jumps over the lazy dog"
-strComplete = str1 + str2
+str1 += str2
 
-print(strComplete)
-print(strComplete.replace("fox", "cat"))
+print(str1)
+print(str1.replace("fox", "cat"))
 
 challenge = """
 The ‘Python library’ contains several different kinds of components.
