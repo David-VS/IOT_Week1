@@ -11,3 +11,11 @@ def fibonacci(how_much: int):
             next_number = sequence[-1] + sequence[-2]
             sequence.append(next_number)
         return sequence
+
+
+def highest_number(*params:int):
+    highest = -9223372036854775808
+    for x in params:
+        if x > highest:
+            highest = x
+    return highest

@@ -4,6 +4,9 @@ from classes import device as d
 
 
 print(mu.fibonacci(3))
+print(mu.highest_number(1, 2))
+print(mu.highest_number(101, 2, 42, 56, 12))
+
 
 manager = dm.DeviceManager()
 lamp1 = d.Device("Philips hue", True)
