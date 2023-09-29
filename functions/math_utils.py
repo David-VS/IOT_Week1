@@ -13,9 +13,17 @@ def fibonacci(how_much: int):
         return sequence
 
 
-def highest_number(*params:int):
+def highest_number(*params: int):
     highest = -9223372036854775808
     for x in params:
         if x > highest:
             highest = x
     return highest
+
+
+def factorial(x: int):
+    result = x
+    for n in range(1, x, 1):
+        result *= n
+    return result
+
